@@ -18,6 +18,8 @@ $ snap install stacc
 
 ### Using homebrew (MacOS / Linux)
 
+COMING SOON
+
 ### Direct download
 
 Download the latest release [here](https://github.com/stacc/stacc-CLI/releases/latest)
