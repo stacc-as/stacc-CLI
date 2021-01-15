@@ -4,6 +4,9 @@ This repository is being used to hold Stacc CLI [releases](https://github.com/st
 
 ## Installation
 
+* [Snap](#using-snap-linux)
+* [Direct download](#direct-download)
+
 ### Using snap (linux)
 
 Simply run the following command
