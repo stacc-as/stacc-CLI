@@ -18,7 +18,17 @@ $ snap install stacc
 
 ### Using homebrew (MacOS / Linux)
 
-COMING SOON
+First add the repository with
+
+```
+$ brew tap stacc/stacc-cli
+```
+
+Then install the CLI with
+
+```
+$ brew install stacc
+```
 
 ### Direct download
 
