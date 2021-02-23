@@ -32,4 +32,12 @@ $ brew install stacc
 
 ### Direct download
 
+MacOS and Linux users may run this command from their terminal
+
+```
+$ curl -s https://raw.githubusercontent.com/stacc/stacc-CLI/main/install.sh | bash -s --
+```
+
+or
+
 Download the latest release [here](https://github.com/stacc/stacc-CLI/releases/latest)
