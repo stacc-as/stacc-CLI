@@ -6,6 +6,7 @@ This repository is being used to hold Stacc CLI [releases](https://github.com/st
 
 * [Snap](#using-snap-linux)
 * [Homebrew](#using-homebrew-macos--linux)
+* [From terminal](#from-terminal)
 * [Direct download](#direct-download)
 
 ### Using snap (Linux)
@@ -30,14 +31,20 @@ Then install the CLI with
 $ brew install stacc
 ```
 
-### Direct download
+### From terminal
 
-MacOS and Linux users may run this command from their terminal
+MacOS and Linux users
 
 ```
 $ curl -s https://raw.githubusercontent.com/stacc/stacc-CLI/main/install.sh | bash -s --
 ```
 
-or
+Windows users
+
+```
+$ curl -LSs https://raw.githubusercontent.com/stacc/stacc-CLI/main/install.bat -o %TEMP%\stacc-install.bat && CMD /C %TEMP%\stacc-install.bat && del %TEMP%\stacc-install.bat
+```
+
+### Direct download
 
 Download the latest release [here](https://github.com/stacc/stacc-CLI/releases/latest)
