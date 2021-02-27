@@ -6,6 +6,7 @@ This repository is being used to hold Stacc CLI [releases](https://github.com/st
 
 * [Snap](#using-snap-linux)
 * [Homebrew](#using-homebrew-macos--linux)
+* [Scoop](#using-scoop-windows)
 * [From terminal](#from-terminal)
 * [Direct download](#direct-download)
 
@@ -29,6 +30,20 @@ Then install the CLI with
 
 ```
 $ brew install stacc
+```
+
+### Using scoop (Windows)
+
+First add the repository with
+
+```
+$ scoop bucket add stacc https://github.com/stacc/stacc-CLI
+```
+
+Then install the CLI with
+
+```
+$ scoop install stacc
 ```
 
 ### From terminal
