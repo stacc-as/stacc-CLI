@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/stacc/stacc-CLI/releases/download/v0.1.0/stacc_0.1.0_Windows_i386.tar.gz",
+            "bin": [
+                "stacc.exe"
+            ],
+            "hash": "7b7ca143302fd3f926980a6d2db8ecb550b8e89825deae2ad585918bc12e4605"
+        },
+        "64bit": {
+            "url": "https://github.com/stacc/stacc-CLI/releases/download/v0.1.0/stacc_0.1.0_Windows_x86_64.tar.gz",
+            "bin": [
+                "stacc.exe"
+            ],
+            "hash": "ac4594627c5e13ff431dc530c15426c9dea6109fec38f465596dacd274cf54e8"
+        }
+    },
+    "homepage": "https://github.com/stacc/stacc-CLI",
+    "license": "Apache-2.0",
+    "description": "Software used to communicate with Stacc cloud environments"
+}
