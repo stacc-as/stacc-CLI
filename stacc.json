@@ -1,19 +1,19 @@
 {
-    "version": "0.1.93",
+    "version": "0.1.94",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/stacc/stacc-CLI/releases/download/v0.1.93/stacc_0.1.93_Windows_i386.tar.gz",
+            "url": "https://github.com/stacc/stacc-CLI/releases/download/v0.1.94/stacc_0.1.94_Windows_i386.tar.gz",
             "bin": [
                 "stacc.exe"
             ],
-            "hash": "d050101cae1aad34341911fdb9cd374c3fcb74c0a1ef6c37845e7a73845486b3"
+            "hash": "ec96ce6c2d70752d0856a031597539a0750176cdd09cdab064033abfe5dda3ec"
         },
         "64bit": {
-            "url": "https://github.com/stacc/stacc-CLI/releases/download/v0.1.93/stacc_0.1.93_Windows_x86_64.tar.gz",
+            "url": "https://github.com/stacc/stacc-CLI/releases/download/v0.1.94/stacc_0.1.94_Windows_x86_64.tar.gz",
             "bin": [
                 "stacc.exe"
             ],
-            "hash": "6444d6a5b7ef6dc250f0e5e342e7ac29af8847fdbba98f8e961bddb0cde120a9"
+            "hash": "3711d593338c63428059243baa805645f87cec59c32aee113b1a91fe3f9d8555"
         }
     },
     "homepage": "https://github.com/stacc/stacc-CLI",
