@@ -1,6 +1,6 @@
-# stacc-CLI
+# Stacc CLI
 
-This repository is being used to hold Stacc CLI [releases](https://github.com/stacc/stacc-CLI/releases)
+This repository is being used to hold the Stacc CLI [releases](https://github.com/stacc/cli/releases).
 
 ## Installation
 
@@ -23,7 +23,7 @@ $ snap install stacc
 First add the repository with
 
 ```
-$ brew tap stacc/stacc-cli
+$ brew tap stacc/tap
 ```
 
 Then install the CLI with
@@ -37,7 +37,7 @@ $ brew install stacc
 First add the repository with
 
 ```
-$ scoop bucket add stacc https://github.com/stacc/stacc-CLI
+$ scoop bucket add stacc https://github.com/stacc/cli
 ```
 
 Then install the CLI with
@@ -51,15 +51,15 @@ $ scoop install stacc
 MacOS and Linux users
 
 ```
-$ curl -s https://raw.githubusercontent.com/stacc/stacc-CLI/main/install.sh | bash -s --
+$ curl -s https://raw.githubusercontent.com/stacc/cli/main/install.sh | bash -s --
 ```
 
 Windows users
 
 ```
-$ curl -LSs https://raw.githubusercontent.com/stacc/stacc-CLI/main/install.bat -o %TEMP%\stacc-install.bat && CMD /C %TEMP%\stacc-install.bat && del %TEMP%\stacc-install.bat
+$ curl -LSs https://raw.githubusercontent.com/stacc/cli/main/install.bat -o %TEMP%\stacc-install.bat && CMD /C %TEMP%\stacc-install.bat && del %TEMP%\stacc-install.bat
 ```
 
 ### Direct download
 
-Download the latest release [here](https://github.com/stacc/stacc-CLI/releases/latest)
+Download the latest release [here](https://github.com/stacc/cli/releases/latest).
