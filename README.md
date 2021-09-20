@@ -20,6 +20,8 @@ $ snap install stacc
 
 ### Using homebrew (MacOS / Linux)
 
+> NOTE: The name of the tap has changed. If you still have the old one, run `brew untap stacc/stacc-CLI` before doing the steps below.
+
 First add the repository with
 
 ```
