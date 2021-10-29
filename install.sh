@@ -22,7 +22,7 @@ fi
 
 ARCH="\$(uname -m)"
 
-VERSION=$(curl --silent "https://api.github.com/repos/stacc/stacc-CLI/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+VERSION=$(curl -L --silent "https://api.github.com/repos/stacc/cli/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 
 URL="https://github.com/stacc/stacc-CLI/releases/download/$VERSION/stacc_${VERSION:1}_$(uname)_$(uname -m).tar.gz"
 
