@@ -31,7 +31,7 @@ IF %ERRORLEVEL% NEQ 0 (
 )
 
 SET VERSION=%temp:~14,-2%
-SET URL=https://github.com/stacc/stacc-CLI/releases/download/v%VERSION%/stacc_%VERSION%_Windows_x86_64.tar.gz
+SET URL=https://github.com/stacc/cli/releases/download/v%VERSION%/stacc_%VERSION%_Windows_x86_64.tar.gz
 
 ECHO - Downloading and extracting file from %URL%
 MKDIR %APPDATA%\stacc
