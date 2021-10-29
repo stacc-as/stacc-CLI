@@ -20,7 +20,7 @@ IF %ERRORLEVEL% NEQ 0 (
 )
 
 SETLOCAL ENABLEDELAYEDEXPANSION
-SET manifest=https://api.github.com/repos/stacc/stacc-CLI/releases/latest
+SET manifest=https://api.github.com/repos/stacc/cli/releases/latest
 FOR /F "tokens=* USEBACKQ" %%F IN (`curl -LSs %manifest%^|findstr /r "\"tag_name\": \"v[0-9]+\.[0-9]+\.[0-9]+\""`) DO (
   SET temp=%%F
 )
