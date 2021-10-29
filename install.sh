@@ -24,7 +24,7 @@ ARCH="\$(uname -m)"
 
 VERSION=$(curl -L --silent "https://api.github.com/repos/stacc/cli/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 
-URL="https://github.com/stacc/stacc-CLI/releases/download/$VERSION/stacc_${VERSION:1}_$(uname)_$(uname -m).tar.gz"
+URL="https://github.com/stacc/cli/releases/download/$VERSION/stacc_${VERSION:1}_$(uname)_$(uname -m).tar.gz"
 
 echo "- Downloading from $URL"
 
